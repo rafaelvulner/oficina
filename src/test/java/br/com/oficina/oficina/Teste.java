@@ -24,7 +24,7 @@ public class Teste {
 		
 		String sql = "select * from veiculo";
 		
-		insertSql("GM", "Chevrolet", "Corsa sedan", 2000, "Prata");
+		//insertSql("GM", "Chevrolet", "Corsa sedan", 2000, "Prata");
 		
 		ps = (PreparedStatement) conn.getConnection().prepareStatement(sql);
 		
